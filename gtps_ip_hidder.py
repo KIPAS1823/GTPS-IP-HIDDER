@@ -8,7 +8,7 @@ def threadings():
 def making():
 	ip = str(random.randint(1,255)) + '.' + str(random.randint(1, 255)) + '.' + str(random.randint(1,255)) + '.' + str(random.randint(1, 255))
 	a = ''
-	rand = random.randint(1, 25)
+	rand = random.randint(0, 25)
 	for i in range(rand):
 		a += '###'
 	f = open('hosts.txt', 'a+')
